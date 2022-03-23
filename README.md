@@ -38,12 +38,11 @@ Ama annemin şartları vardı. (*But my mother has her conditions*)
 
 | ID | Surface| Lemma\*| Pos | PPos | Morp\*  | DepHead ID | DepRel\* | Semantic Layers |
 |--- |--------|------|---|----|--------|-----|---|---------|
-| 1  | ama | ama  | Conj | Conj | _ | 4 | CONJUNCTION |  _ _ _ |
-| 2  | annemin | anne   | Noun | Noun | A3sg\|P1sg\|Gen | 3 | POSSESSOR | _ _ _ |
+| 1  | ama | ama  | Conj | Conj | _ | 4 | CONJUNCTION |  _ _ _ | 
+| 2  | annemin | anne   | Noun | Noun | A3sg\|P1sg\|Gen | 3 | POSSESSOR | _ _ _ | 
 | 3  | şartları | şart | Noun | Noun | A3pl\|P3sg\|Nom | 4 | SUBJECT | _ _ A1 |
-| 4  | vardı | var | Verb | Verb | Pos\|Past\|A3sg | 0 | PREDICATE | Y var.01 _ |
-| 5  | . | . | Punc | Punc | _ | 4 | PUNCTUATION | _ _ _ |
-
+| 4  | vardı | var | Verb | Verb | Pos\|Past\|A3sg | 0 | PREDICATE | Y var.01 _ | 
+| 5  | . | . | Punc | Punc | _ | 4 | PUNCTUATION | _ _ _ | 
 
 \* indicates duplicate columns. The further information about input form is available in [Abstract Meaning Representation of Turkish](https://www.cambridge.org/core/journals/natural-language-engineering)
 
