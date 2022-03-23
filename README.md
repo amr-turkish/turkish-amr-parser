@@ -49,7 +49,19 @@ Ama annemin şartları vardı. (*But my mother has her conditions*)
 
 ### Running the Parser
 For Prepocessing
-`python preprocess.py -f <datafilepath> --out <outputdirectory>`
+`python preprocess.py -f dataset.conll --out ./output`
+
+Output file is save as propbank.out in output directory 
+
+For Parsing 
+`python parsing.py -f ./output/propbank.out --out ./parser_out`
+
+Parsing results are saved in ./parser\_out/output.out file. Exceptions are also save in  ./parser\_out/exceptions.out.
+
+To parse only one sentence 
+
+`python parsing.py -f ./output/propbank.out --out ./parser_out --only-one`
+ 
 
 ## Contributing
 

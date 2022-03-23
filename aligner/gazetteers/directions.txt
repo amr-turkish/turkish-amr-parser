@@ -1,0 +1,14 @@
+sağ
+sol
+güney
+kuzey
+doğu
+batı
+kuzeydoğu
+kuzeybatı
+güneydoğu
+güneybatı
+garb
+şimal
+şark
+cenup
