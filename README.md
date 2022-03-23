@@ -1,4 +1,4 @@
-# turkish-amr-guidelines
+# turkish-amr-parser
 
 This repository provides the resources introduced within the article:
 
