@@ -17,7 +17,40 @@ the first Turkish AMR Guidelines: [turkish-amr-guidelines](https://github.com/am
 the first Turkish AMR Corpus: [turkish-amr-corpus](https://github.com/amr-turkish/turkish-amr-corpus)
 
 ## Quick Tour
+### Input Format
+Turkish AMR parser uses syntactic and semantic features, therefore they should be provided to the parser in CONLL format. 
 
+A sample should have the following columns :
+
+* Token id
+* Surface form
+* Lemma
+* Pos
+* PPos
+* Morphologic Tags
+* Dependency Head
+* Dependency Relation
+* SRL features
+ 
+
+An example data sample:
+Ama annemin şartları vardı. (*But my mother has her conditions*) 
+
+| ID | Surface| Lemma\*| Pos | PPos | Morp\*  | DepHead ID | DepRel\* | Semantic Layers |
+|--- |--------|------|---|----|--------|-----|---|---------|
+| 1  | ama | ama  | Conj | Conj | _ | 4 | CONJUNCTION |  _ _ _ |
+| 2  | annemin | anne   | Noun | Noun | A3sg\|P1sg\|Gen | 3 | POSSESSOR | _ _ _ |
+| 3  | şartları | şart | Noun | Noun | A3pl\|P3sg\|Nom | 4 | SUBJECT | _ _ A1 |
+| 4  | vardı | var | Verb | Verb | Pos\|Past\|A3sg | 0 | PREDICATE | Y var.01 _ |
+| 5  | . | . | Punc | Punc | _ | 4 | PUNCTUATION | _ _ _ |
+
+
+\* indicates duplicate columns. The further information about input form is available in [Abstract Meaning Representation of Turkish](https://www.cambridge.org/core/journals/natural-language-engineering)
+
+
+### Running the Parser
+For Prepocessing
+`python preprocess.py -f <datafilepath> --out <outputdirectory>`
 
 ## Contributing
 
