@@ -1,38 +1,38 @@
-cff-version: 1.0
+cff-version: 1.2.0
 message: "If you use this repo, please cite it as below."
 authors:
-- family-names: "Oral"
-  given-names: "K. Elif"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Acar"
-  given-names: "Ali"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Eryigit"
-  given-names: "Gulsen"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Oral"
+    given-names: "K. Elif"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Acar"
+    given-names: "Ali"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Eryigit"
+    given-names: "Gulsen"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "Abstract Meaning Representation of Turkish"
-version: -
-doi: -
-date-released: -
-url: "https://github.com/amr-turkish/turkish-amr-parser"
+version: "-"
+doi: "10.1017/S1351324921000401"
+date-released: "1900-01-01"
+url: "https://github.com/amr-turkish/turkish-amr-guidelines"
 preferred-citation:
   type: article
   authors:
-- family-names: "Oral"
-  given-names: "K. Elif"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Acar"
-  given-names: "Ali"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Eryigit"
-  given-names: "Gulsen"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-  doi: "-"
+    - family-names: "Oral"
+      given-names: "K. Elif"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+    - family-names: "Acar"
+      given-names: "Ali"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+    - family-names: "Eryigit"
+      given-names: "Gulsen"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+  doi: "10.1017/S1351324921000401"
   journal: "Natural Language Engineering"
-  month: -
-  start: - # First page number
-  end: - # Last page number
+  month: "1"
+  start: "1" # First page number
+  end: "1" # Last page number
   title: "Abstract Meaning Representation of Turkish"
-  issue: -
-  volume: -
+  issue: "1"
+  volume: "1"
   year: 2022
