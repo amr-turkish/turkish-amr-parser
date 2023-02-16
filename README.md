@@ -2,7 +2,7 @@
 
 This repository provides the resources introduced within the article:
 
-[Abstract Meaning Representation of Turkish](https://www.cambridge.org/core/journals/natural-language-engineering) accepted for publication in [Natural Language Engineering](https://www.cambridge.org/core/journals/natural-language-engineering), Cambridge Press.
+[Abstract Meaning Representation of Turkish](https://www.cambridge.org/core/journals/natural-language-engineering/article/abstract-meaning-representation-of-turkish/35E839E5AF1F7B9F6BF16275A44BB71D) accepted for publication in [Natural Language Engineering](https://www.cambridge.org/core/journals/natural-language-engineering), Cambridge Press.
 
 
 Abstract meaning representation (AMR) is a graph-based sentence-level meaning representation. Although it is originally designed for English, its adaptation to non-English languages is possible by defining language-specific divergences and representations.  We introduce the first AMR representation framework for Turkish; agglutinative, free constituent order, morphologically highly rich. Besides this main contribution, the article also presents the construction of the first AMR corpus of 700 sentences, the first AMR parser (i.e., a tree-to-graph rule-based AMR parser)
